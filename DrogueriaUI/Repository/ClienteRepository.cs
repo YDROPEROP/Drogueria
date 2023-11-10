@@ -16,6 +16,7 @@ namespace DrogueriaUI.Repository
         {
             var user = new Cliente()
             {
+                Id = usuario.Id,
                 Identificacion = usuario.Identificacion,
                 Nombre = usuario.Nombre,
                 Apellido = usuario.Apellido,
